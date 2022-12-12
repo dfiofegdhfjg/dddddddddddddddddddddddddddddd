@@ -37,7 +37,14 @@ Tab:AddButton({
 	Name = "Reset W/J",
 	Callback = function()
       		game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 16
-			game.Players.LocalPlayer.Character.Humanoid.JumpPower = 16
+			game.Players.LocalPlayer.Character.Humanoid.JumpPower = 50
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Double Jump",
+	Callback = function()
+			game.Players.LocalPlayer.Character.Humanoid.JumpPower = 100
   	end    
 })
  
