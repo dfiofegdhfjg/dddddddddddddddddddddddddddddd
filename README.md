@@ -25,6 +25,21 @@ Tab:AddButton({
       		game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 120
   	end    
 })
+
+Tab:AddButton({
+	Name = "Jumppower!",
+	Callback = function()
+      		game.Players.LocalPlayer.Character.Humanoid.JumpPower = 120
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Reset W/J",
+	Callback = function()
+      		game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 16
+			game.Players.LocalPlayer.Character.Humanoid.JumpPower = 16
+  	end    
+})
  
 Tab:AddButton({
 	Name = "Fly R6 (E TO STOP)",
@@ -118,6 +133,5 @@ end)
 Fly()
   	end    
 })
- 
  
  
