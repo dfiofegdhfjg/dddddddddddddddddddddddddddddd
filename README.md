@@ -47,6 +47,20 @@ Tab:AddButton({
 			game.Players.LocalPlayer.Character.Humanoid.JumpPower = 100
   	end    
 })
+
+Tab:AddButton({
+	Name = "Ultimate Trolling GUI | UTG V3 (MIGHT NOT BE FE. and might be patched)",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/Blukez/Scripts/main/UTG%20V3%20RAW"))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Become a Snake Might be patched too",
+	Callback = function()
+		loadstring(game:HttpGet(('https://pastefy.ga/tWBTcE4R/raw'),true))()
+  	end    
+})
  
 Tab:AddButton({
 	Name = "Fly R6 (E TO STOP)",
@@ -54,7 +68,29 @@ Tab:AddButton({
       		loadstring(game:HttpGet("https://pastebin.com/raw/KfNPZgjW"))()
   	end    
 })
+
+Tab:AddButton({
+	Name = "FE BUILD TOOLS R6 ONLY MIGHT BE PATCHED",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/rouxhaver/scripts/main/FE%20BTools.lua"))()
+  	end    
+})
  
+Tab:AddButton({
+	Name = "Ben Script (No Sounds)",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/BlastingStone/MyLuaStuff/master/benscriptgui.lua"))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "FE brook haven admin",
+	Callback = function()
+		loadstring(game:HttpGet("https://gist.githubusercontent.com/testttbqwebg/adc0db730f5dfca0d8dbdb81f3b65391/raw/b0443888c4399af5a297cb1100a4749c65705711/qweqw", true))()
+  	end    
+})
+
+
 Tab:AddButton({
 	Name = "Fly R15 (E TO STOP)",
 	Callback = function()
