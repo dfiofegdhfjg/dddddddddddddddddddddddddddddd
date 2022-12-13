@@ -8,7 +8,7 @@ OrionLib:MakeNotification({
 })
  
  
-local Window = OrionLib:MakeWindow({Name = "OrionLib", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
+local Window = OrionLib:MakeWindow({Name = "AdminLib", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
  
 local Tab = Window:MakeTab({
 	Name = "Main.",
