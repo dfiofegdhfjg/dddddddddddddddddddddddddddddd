@@ -90,6 +90,13 @@ Tab:AddButton({
   	end    
 })
 
+Tab:AddButton({
+	Name = "Steal Art (wait 5 mins and change some pixels before submitting",
+	Callback = function()
+	   loadstring(game:HttpGet("https://pastebin.com/raw/aCFfd9Uq"))()
+  	end    
+})
+
 
 Tab:AddButton({
 	Name = "Fly R15 (E TO STOP)",
